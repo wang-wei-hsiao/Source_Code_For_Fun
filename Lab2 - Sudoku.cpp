@@ -76,8 +76,6 @@ bool solve(vector<vector<int>>&matrix, int i, int k) {
         next.second++;
     }
     
-    
-    
     vector<bool> value = valid_value(matrix, i, k); /* index 0~size-1 -> possible value = index+1 */
     for (int a=0 ; a<size; a++) {
         if( value[a]==true ) {
