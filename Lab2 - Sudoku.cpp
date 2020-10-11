@@ -48,7 +48,7 @@ void row_is_valid (vector<vector<int>>&matrix, int i, int k ,vector<bool> &value
     }
 }
 
-/* check element (i,k) validity */
+/* find possible value at (i,k) */
 vector<bool> valid_value(vector<vector<int>>&matrix, int i, int k) {
     vector<bool> value(size,true);
     row_is_valid(matrix, i, k, value);
